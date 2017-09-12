@@ -1,1 +1,1 @@
-alert('main.js is connected');
+console.log('main.js is connected');
