@@ -8,7 +8,7 @@ var userButton = document.getElementById('user-btn');
 function checkCookie(){
     var cookieName = Cookies.get('name');
     if (cookieName !== ''){
-        document.getElementById('welcome').innerHTML = 'Welcome, ' + Cookies.get('name');
+        document.getElementById('welcome').innerHTML = 'Welcome Back, ' + Cookies.get('name');
     }
 };
 
