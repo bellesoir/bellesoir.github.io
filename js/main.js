@@ -1,6 +1,6 @@
 Cookies.set('name', 'Val');
 
 var fName = Cookies.get('name');
-console.log('fName');
+console.log(fName);
 
 //document.getElementById('welcome').innerText = '';
