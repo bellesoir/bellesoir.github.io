@@ -7,7 +7,7 @@
 var userButton = document.getElementById('user-btn');
 function checkCookie(){
     var cookieName = Cookies.get('name');
-    if (cookieName !== null){
+    if (cookieName != null){
         document.getElementById('welcome').innerHTML = 'Welcome Back, ' + Cookies.get('name');
     }
 };
